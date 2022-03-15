@@ -24,7 +24,7 @@ function MovieInfo() {
         }).then((response) => {
             setDetails(response.data);
         })
-    }, [])
+    }, [movie_id])
 
     
     return (
